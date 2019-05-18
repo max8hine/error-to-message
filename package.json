@@ -1,6 +1,6 @@
 {
   "name": "error-to-message",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All caught errors to UI ready messages",
   "main": "index.js",
   "repository": {
