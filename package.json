@@ -1,0 +1,42 @@
+{
+  "name": "error-to-message",
+  "version": "0.0.1",
+  "description": "All caught errors to UI ready messages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max8hine/error-to-message.git"
+  },
+  "keywords": [
+    "error",
+    "message",
+    "javascript"
+  ],
+  "author": "Max Ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/max8hine/error-to-message/issues"
+  },
+  "homepage": "https://github.com/max8hine/error-to-message#readme",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "start": "watch 'npm run build' src",
+    "build": "babel src -d dist",
+    "prepublish": "npm run build",
+    "release": "np"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "jest": "^24.8.0",
+    "np": "^5.0.1",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "prettier": "1.17.1",
+    "save-dev": "2.0.0"
+  }
+}
