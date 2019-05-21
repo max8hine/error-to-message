@@ -1,6 +1,6 @@
 {
   "name": "error-to-message",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "All caught errors to UI ready messages",
   "main": "dist/index.js",
   "files": [
