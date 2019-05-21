@@ -6,7 +6,7 @@ export default msg => {
 
   const fallbackMessage = _err => {
     if (typeof error !== "string") {
-      console.error(err);
+      console.info(_err);
       return defaultMsg;
     }
     return _err;
@@ -14,6 +14,6 @@ export default msg => {
 
   return (...fns) => x => {
     fns.push(fallbackMessage);
-    fns.reduce((y, f) => f(y), x);
+    return fns.reduce((y, f) => f(y), x);
   };
 };
