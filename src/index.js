@@ -5,3 +5,10 @@ import errorInstance from "./errorInstance";
 
 export const toMessage = error =>
   newErrorMessage()(errorAxios, errorFirebaseAuth, errorInstance)(error);
+
+export default {
+  newErrorMessage,
+  errorAxios,
+  errorFirebaseAuth,
+  errorInstance
+};
