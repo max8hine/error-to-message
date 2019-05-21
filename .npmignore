@@ -61,10 +61,10 @@ typings/
 .next
 
 # vscode
-# .vscode/
+.vscode/
 
-# dist
-dist/
+#srouce
+src/
 
-# jest
+#jest
 *.test.js

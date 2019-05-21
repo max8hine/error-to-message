@@ -2,7 +2,10 @@
   "name": "error-to-message",
   "version": "0.0.2",
   "description": "All caught errors to UI ready messages",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/max8hine/error-to-message.git"
